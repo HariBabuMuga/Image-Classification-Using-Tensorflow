@@ -12,6 +12,7 @@ from tqdm import tqdm
 import cv2
 import matplotlib.pyplot as plt
 import tensorflow as tf
+import random
 
 #%%
 df_train = pd.read_csv("/home/hari/tensorflow/Capstone/labels.csv")
